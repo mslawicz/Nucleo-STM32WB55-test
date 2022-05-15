@@ -8,6 +8,7 @@
 #ifndef INC_MAINAPP_H_
 #define INC_MAINAPP_H_
 
+extern UART_HandleTypeDef* pConsole;
 
 #ifdef __cplusplus
 extern "C"

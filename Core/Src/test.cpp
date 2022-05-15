@@ -7,11 +7,14 @@
 
 #include "test.h"
 #include "mainApp.h"
+#include <iostream>
 
 void mainApp()
 {
     MainApp application;
 
+    printf("\r\nprintf example");
+    std::cout << "\r\nstd << cout example";
     application.testLoop();
 }
 
