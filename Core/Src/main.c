@@ -56,7 +56,7 @@ static void MX_GPIO_Init(void);
 static void MX_USART1_UART_Init(void);
 static void MX_USB_PCD_Init(void);
 /* USER CODE BEGIN PFP */
-__attribute__((weak)) int _write(int file, char *ptr, int len);
+
 /* USER CODE END PFP */
 
 /* Private user code ---------------------------------------------------------*/
